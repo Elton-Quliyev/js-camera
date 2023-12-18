@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .square {
+  background-color: rgb(236, 92, 92);
+  border-radius: 10px;
+  width: 500px;
+  height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border-left: 30px solid rgb(167, 77, 77);
+  border-top: 40px solid rgb(200, 92, 92);
+}
+.container .square h1 {
+  font-size: 35px;
+  position: absolute;
+  top: 35%;
+  right: 56%;
+}
+.container .square .circle1 {
+  margin: 20px 30px;
+  background-color: black;
+  border: 10px solid grey;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .square .circle1 .circle2 {
+  background-color: black;
+  border: 8px solid grey;
+  border-radius: 50%;
+  height: 147px;
+  width: 147px;
+}
+.container .square .circle1 .circle2 .circle3 {
+  background-color: cadetblue;
+  width: 30px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.btn {
+  position: absolute;
+  top: 30%;
+  left: 39%;
+  z-index: 10;
+  width: 50px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  border-top: 7px solid gray;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.circle2_foto {
+  background-color: rgb(139, 245, 10);
+  border: 8px solid grey;
+  border-radius: 50%;
+  height: 147px;
+  width: 147px;
+}
+.circle2_foto .circle3 {
+  background-color: cadetblue;
+  width: 30px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 100px;
+}/*# sourceMappingURL=home.css.map */
